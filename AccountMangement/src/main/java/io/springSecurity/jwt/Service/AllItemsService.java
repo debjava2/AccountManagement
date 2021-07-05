@@ -15,7 +15,9 @@ public class AllItemsService {
 	
 	public  List<ClothModel> getAllItems(){
 		return (List<ClothModel>) dao.findAll();
-		
+	}
+	public void  deleteItem(int id) {
+		dao.deleteById(id);
 		
 	}
 	
