@@ -83,8 +83,8 @@ public class HelloController {
 		service.deleteItem(id);
 		return "Sucess";
 	}
-	@PostMapping("/updateItems")
-	public List<ClothModel> updateItems(@RequestBody ClothModel clothModel){
-		return service.upadteItems(clothModel);
-	}
+	/*
+	 * @PostMapping("/updateItems") public List<ClothModel> updateItems(@RequestBody
+	 * ClothModel clothModel){ //return service.upadteItems(clothModel); }
+	 */
 }
